@@ -1,7 +1,5 @@
-body {background-color: black;}
-#nav-table { width: 800px;}
+body {background-color: rgb(0, 0, 0); width: 1000px;}
+#nav-table { width: 1000px;}
 #nav-td {width: 200px; text-align: center;}
-h1 { color: red;}
+h1 { text-align: center; color: red;}
 p { color: red;}
-#Piccoli_bio { width: 300px; float: right; margin-right: 600px ;}
-#Interests {width: 300px; float: left;}

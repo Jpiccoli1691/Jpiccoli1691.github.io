@@ -5,10 +5,61 @@
         <meta charset="utf-8">
               <title>About Me</title>
               <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+              <style>
+                #Piccoli_Img {
+                  width: 300px;
+                  float: left;
+                  margin-right:10px ;
+                  margin-bottom: 10px ;
+                                }
+                #Piccoli_bio {
+                  margin-right:20px ;
+                  margin-bottom: 20px ;
+                  text-align: justify;
+                  font-size: 32px;
+                }
 
-  <body>
-   
+                #Bulldog {
+                  width: 300px;
+                  float: left;
+                  margin-right: 6px;
+                  margin-bottom: 6px;
+                }
+
+                #Interests {
+                  width: 480px;
+                  float: right;
+                  margin-right: 20px;
+                  margin-bottom: 20px; 
+                  text-align: justify;
+                  font-size: 20px;      
+                }
+                #SarCoin {
+                  width: 300px;
+                  float: left;
+                  margin-right: 6px;
+                  margin-bottom: 6px;
+                }
+                #Interests2 {
+                  width: 450px;
+                  float: left;
+                  margin-right: 6px;
+                  margin-bottom: 6px;
+                  text-align: justify; 
+                  font-size: 20px;             
+                }
+                .background {
+                  background-image: url("myBackground.png");
+                  background-size: 1000px;
+                  width: 1000px;
+                  height: 1500px;
+                  border: solid 2px red;}
+              </style>
+              
+
+  </head>
+    <body>
+  
     <img src="myBanner2.jpg">
     <table id="nav-table">
         <thead>
@@ -20,11 +71,37 @@
         </tr>
       </thead>
     </table>
+
+
     <h1>Here I am!</h1>
-    <img src="Jonathan.png" width="300" height="300" >
-        <p id="Piccoli_bio">Hello, I am Jonathan. I have a limited background in CSC and HTML. All I had when I was little was a Green and black screen computer consule and all you could do with it was code on. That is what I did all day was type line by line code out on that green and black screen that would destroy your eyesight within minutes. The best thing I ever created with code was a house that had smoke coming from the chimney when I was 4 years old that was 34 years ago. After many attempts at trying other things out in life I have decided to go back trying my luck with CSC and learn to code again maybe I will pick up enough of it like I did when I was little so that one day I could take over the world one day with it. 
+
+
+    <div class="background">
+        <p id="Piccoli_bio">
+          <img id="Piccoli_Img" src="Jonathan.png" width="300">
+          Hello, I am Jonathan. I have a limited background in CSC and HTML. 
+          All I had when I was little was a Green and black screen computer consule and all you could do with it was code on.
+            That is what I did all day was type line by line code out on that green and black screen that would destroy your eyesight within minutes. 
+            The best thing I ever created with code was a house that had smoke coming from the chimney when I was 4 years old that was 34 years ago. 
+            After many attempts at trying other things out in life I have decided to go back trying my luck with CSC and learn to code again maybe I will pick up enough of it like I did when I was little so that one day I could take over the world one day with it. 
         </p>
-              <p id="Interests">I am currently assisting my brother with his small start up GareGamesInc. He is the BrainChild of it all currently. We both have a strong background for loving the video games and how they are created. Unfournlty I have let my coding skills go to the way side all these years. I am hoping to soon correct that and help with the coding of his future games.  </p>
-        <img src="GareGamesDog1.png" width="300" height="300">
+
+        <p id="Interests">
+          <img id="SarCoin" src="SarCoin.png" width="300">
+          When I was in the Service I trained to be a Surface Rescue Swimmer. 
+          Like the CoastGuards Swimmer, but for the ships. I have a love of the water, but it doesnt love me back.
+           I love to swim and I swim often, but not as much as i did when I was younger. 
+        
+        </p>
+
+        <p id="Interests2">
+          <img id="Bulldog" src="GareGamesDog1.png" width="300">
+          My main interest right now is to learn coding so that I can assist my brother with his small start up GareGamesInc some day soon.
+          He is the Lead Developer of it all currently. 
+          We both have a strong background for loving the video games and how they are created. 
+          Unfortunately, I have let my coding skills go to the way side all these years. 
+          I am hoping to soon correct that and help with the coding of his future games.  
+        </p>
+</div>
       </body>
 </html>
